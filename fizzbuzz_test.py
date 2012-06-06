@@ -12,7 +12,9 @@ class TestFizzBuzz(unittest.TestCase):
 		self.assertEqual(FizzBuzz(3), "fizz")
 		self.assertEqual(FizzBuzz(9), "fizz")
 
-	
+	def test_multiple_5_should_return_buzz(self):
+		self.assertEqual(FizzBuzz(5), "buzz")
+		self.assertEqual(FizzBuzz(10), "buzz")
 		
 
 if __name__ == '__main__':
